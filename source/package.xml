@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>HebCalCalloutMock</members>
+    <members>HebCalCalloutMockBadStatus</members>
+    <members>HebCalConversionHandler</members>
+    <members>HebCalConversionObject</members>
+    <members>HebCalIntegrationTest</members>
+    <members>HebcalIntegration</members>
+    <members>HttpCalloutAfterSunsetMock</members>
+    <members>TriggerDisabledException</members>
+  </types>
+  <types>
+    <name>CustomMetadata</name>
+    <members>Integration.Hebcal</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Integration__mdt-Integration Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Contact.BirthdayAftersunset__c</members>
+    <members>Contact.Hebrew_Birthday__c</members>
+    <members>Integration__mdt.Disable__c</members>
+    <members>Integration__mdt.Password__c</members>
+    <members>Integration__mdt.Url__c</members>
+    <members>Integration__mdt.Username__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Integration__mdt</members>
+  </types>
+  <types>
+    <name>RemoteSiteSetting</name>
+    <members>HebCal</members>
+  </types>
+  <types>
+    <name>ApexTrigger</name>
+    <members>ContactTrigger</members>
+  </types>
+  <version>42.0</version>
+</Package>
