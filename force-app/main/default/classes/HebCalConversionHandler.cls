@@ -1,7 +1,5 @@
 public with sharing class HebCalConversionHandler  {
 
-
-
         public static void setHebrewBirthday(List<Contact> contacts, Map<id,Contact> oldContacts){
 
         if (Schema.sObjectType.Contact.fields.Hebrew_Birthday__c.isUpdateable()){
@@ -12,7 +10,7 @@ public with sharing class HebCalConversionHandler  {
                                 Integer day = c.Birthdate.day();
                                 Integer month = c.Birthdate.month();
                                 Integer year = c.Birthdate.year(); 
-                                String afterSunset = '&gs=off';
+                                String afterSunset = '&gs';
 
                                 if(c.BirthdayAftersunset__c){
                                     afterSunset = '&gs=on';

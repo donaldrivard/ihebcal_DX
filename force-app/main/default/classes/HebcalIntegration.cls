@@ -9,9 +9,9 @@ public with sharing class HebcalIntegration  {
 
                     String hebCalUrl = '';
                     String convStr='';
-                    Integration__mdt hebCal = [select url__c,Disable__c from Integration__mdt where DeveloperName = 'HebCal'];
+                   Integration__mdt hebCal = [select url__c,Disable__c from Integration__mdt where label = 'HebCal'];
 
-                    /*
+                   /*
                         Check to see if the trigger has been disabled.
                         If it has throw TriggerDisabledException
 
